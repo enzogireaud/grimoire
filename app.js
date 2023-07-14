@@ -9,7 +9,7 @@ const app = express();
 
 mongoose
   .connect(
-    "mongodb+srv://e-gireaud:Gmny6Cl1eJln0AYZ@cluster0.fgmw9up.mongodb.net/", // Utiliser la variable d'environnement pour l'URL de connexion
+    "Your database url", // Utiliser la variable d'environnement pour l'URL de connexion
     { useNewUrlParser: true, useUnifiedTopology: true }
   )
   .then(() => console.log("Connexion à  MongoDB réussie !"))
