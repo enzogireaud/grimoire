@@ -13,3 +13,11 @@ routes: Contient les routes du projet, associé à leur verbe d'action http selo
 app : Setup de base pour la connexion à la base de données avec mongoose, spécifications des headers, appel des routes pour fournir l'URI complet
 
 server: Fichier setup pour faire fonctionner le serveur express sur le port souhaité
+
+Pour lancer le setup :
+npm install
+Remplacer l'url de connexion par sa propre BDD dans App.js
+nodemon server
+
+Puis switch côté frontend
+npm start / npm run dev
